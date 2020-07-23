@@ -21,4 +21,4 @@ Here are some ideas to get you started:
 2. **email**: it.liubang@gmail.com
 
 
-![Github Stats](https://github-readme-stats.vercel.app/api?username=liubang&show_icons=true&theme=dark)
+[![Github Stats](https://github-readme-stats.vercel.app/api?username=liubang&show_icons=true)](https://github.com/liubang)
