@@ -4,6 +4,7 @@ import xml.etree.ElementTree as ET
 feed = requests.get('https://iliubang.cn/feed.xml').text
 root = ET.fromstring(feed)
 nsfeed = {'nsfeed': 'http://www.w3.org/2005/Atom'}
+# http://patorjk.com/software/taag/#p=display&f=Bloody&t=Liubang
 with open('README.md', 'w') as f:
     f.write(r''' 
 ```
