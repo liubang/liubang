@@ -31,5 +31,5 @@ with open('README.md', 'w') as f:
 
 ## Statistics
 ![Stats](https://github-readme-stats.vercel.app/api?username=liubang)
-![Lang](https://github-readme-stats.vercel.app/api/top-langs/?username=liubang&hide=ipynb,html&layout=compact)
+![Lang](https://github-readme-stats.vercel.app/api/top-langs/?username=liubang&hide=ipynb,html,css&layout=compact)
 ''')
