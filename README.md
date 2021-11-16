@@ -21,5 +21,5 @@
 [>>> More blog posts](https://iliubang.cn/archive.html)
 
 ## Stats
-![Stats](https://github-readme-stats.vercel.app/api?username=liubang&show_icons=true&count_private=true&hide_title=true&hide=issues&line_height=24&theme=onedark)
-![Lang](https://github-readme-stats.vercel.app/api/top-langs/?username=liubang&layout=compact&hide_title=true&langs_count=6&theme=onedark)
+![Stats](https://github-readme-stats.vercel.app/api?username=liubang&show_icons=true&count_private=true&hide_title=true&hide=issues&line_height=24&theme=onedark&hide_border=true)
+![Lang](https://github-readme-stats.vercel.app/api/top-langs/?username=liubang&layout=compact&hide_title=true&langs_count=6&theme=onedark&hide_border=true)
