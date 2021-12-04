@@ -22,4 +22,4 @@
 
 ## Stats
 ![Stats](https://github-readme-stats.vercel.app/api?username=liubang&show_icons=true&count_private=true&hide_title=true&hide=issues&line_height=24&theme=onedark&hide_border=true)
-![Lang](https://github-readme-stats.vercel.app/api/top-langs/?username=liubang&layout=compact&hide_title=true&langs_count=6&theme=onedark&card_width=280)
+![Lang](https://github-readme-stats.vercel.app/api/top-langs/?username=liubang&layout=compact&hide_title=true&langs_count=6&theme=onedark&card_width=280&hide=scss,html,javascript,shell,Emacs%20Lisp,Vim%20script)
