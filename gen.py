@@ -27,11 +27,11 @@ with open('README.md', 'w') as f:
         url = entry.find('nsfeed:link', nsfeed).attrib['href']
         published = entry.find('nsfeed:published', nsfeed).text[:10]
         f.write('- {} [{}]({})\n'.format(published, text, url))
-        
+
     f.write(''' 
 [>>> More blog posts](https://iliubang.cn/archive.html)
 
 ## Stats
 ![Stats](https://github-readme-stats.vercel.app/api?username=liubang&show_icons=true&count_private=true&hide_title=true&hide=issues&line_height=24&theme=onedark)
-![Lang](https://github-readme-stats.vercel.app/api/top-langs/?username=liubang&layout=compact&hide_title=true&langs_count=6&theme=onedark)
+![Lang](https://github-readme-stats.vercel.app/api/top-langs/?username=liubang&layout=compact&hide_title=true&langs_count=6&theme=onedark&card_width=280&hide=scss,html,javascript,shell,Emacs%20Lisp,Vim%20script)
 ''')
