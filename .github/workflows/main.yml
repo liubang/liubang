@@ -20,5 +20,5 @@ jobs:
         uses: actions-js/push@master
         with:
           empty: false
-          branch: 'master'
+          branch: 'main'
           github_token: ${{ secrets.GITHUB_TOKEN }}
