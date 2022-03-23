@@ -2,9 +2,8 @@
 import requests
 import xml.etree.ElementTree as ET
 
-feed = requests.get('https://iliubang.cn/feed.xml').text
-root = ET.fromstring(feed)
-nsfeed = {'nsfeed': 'http://www.w3.org/2005/Atom'}
+feed = requests.get('https://iliubang.cn/zh-cn/index.xml').text
+root = ET.fromstring(feed).find('channel')
 # http://patorjk.com/software/taag/#p=display&f=Bloody&t=Liubang
 with open('README.md', 'w') as f:
     f.write(r''' 
@@ -22,14 +21,14 @@ with open('README.md', 'w') as f:
 ```
 ## Latest blog posts
 ''')
-    for entry in root.findall('nsfeed:entry', nsfeed)[:5]:
-        text = entry.find('nsfeed:title', nsfeed).text
-        url = entry.find('nsfeed:link', nsfeed).attrib['href']
-        published = entry.find('nsfeed:published', nsfeed).text[:10]
+    for entry in root.findall('item')[:5]:
+        text = entry.find('title').text
+        url = entry.find('link').text
+        published = entry.find('pubDate').text
         f.write('- {} [{}]({})\n'.format(published, text, url))
 
     f.write(''' 
-[>>> More blog posts](https://iliubang.cn/archive.html)
+[>>> More blog posts](https://iliubang.cn/zh-cn/archives/)
 
 ## Stats
 ![Stats](https://github-readme-stats.vercel.app/api?username=liubang&show_icons=true&count_private=true&hide_title=true&hide=issues&line_height=24&theme=onedark)
