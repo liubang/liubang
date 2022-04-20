@@ -12,8 +12,8 @@
                            ░
 ```
 ## Latest blog posts
+- 2022-04-20 [c++中unique_ptr的一些使用技巧](https://iliubang.cn/posts/cpp/2022-04-20-c++%E4%B8%ADunique_ptr%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/)
 - 2022-04-06 [Expression Templates](https://iliubang.cn/posts/cpp/2022-04-06-expression-templates/)
-- 2022-04-06 [unique_ptr的一些使用技巧](https://iliubang.cn/posts/cpp/2022-04-20-unique_ptr%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/)
 - 2022-03-23 [c++中的动态多态和静态多态](https://iliubang.cn/posts/cpp/2022-03-23-c++%E4%B8%AD%E7%9A%84%E5%8A%A8%E6%80%81%E5%A4%9A%E6%80%81%E5%92%8C%E9%9D%99%E6%80%81%E5%A4%9A%E6%80%81/)
 - 2022-03-18 [c++17:constexpr if](https://iliubang.cn/posts/cpp/2022-03-18-c++17-constexpr_if/)
 - 2022-03-15 [c++20:Designated Initializers](https://iliubang.cn/posts/cpp/2022-03-15-c++20-designated_initializers/)
