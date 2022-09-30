@@ -1,7 +1,8 @@
-name: Metrics
+name: update
 on:
+  workflow_dispatch:
   # Schedule updates (each hour)
-  schedule: [{cron: "0 * * * *"}]
+  schedule: [{ cron: "0 * * * *" }]
 
 jobs:
   build:
@@ -17,8 +18,8 @@ jobs:
           pip install requests
           python gen.py
       - name: Commit & Push changes
-        uses: actions-js/push@master
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          empty: false
-          branch: 'main'
+          branch: "main"
+          commit_options: "--no-verify --signoff"
           github_token: ${{ secrets.GITHUB_TOKEN }}
