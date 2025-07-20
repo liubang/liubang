@@ -2,7 +2,7 @@
 import requests
 import xml.etree.ElementTree as ET
 
-feed = requests.get('https://iliubang.cn/index.xml').text
+feed = requests.get('https://liubang.github.io/blog/index.xml').text
 root = ET.fromstring(feed).find('channel')
 # http://patorjk.com/software/taag/#p=display&f=Bloody&t=Liubang
 with open('README.md', 'w') as f:
@@ -28,7 +28,7 @@ with open('README.md', 'w') as f:
         f.write('- {} [{}]({})\n'.format(published, text, url))
 
     f.write(''' 
-[>>> More blog posts](https://iliubang.cn/archives/)
+[>>> More blog posts](https://liubang.github.io/blog/archives/)
 
 ## Stats
 ![Stats](https://github-readme-stats.vercel.app/api?username=liubang&show_icons=true&count_private=true&hide_title=true&hide=issues&line_height=24&theme=onedark)
