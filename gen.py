@@ -43,16 +43,16 @@ with open("README.md", "w") as f:
     f.write(
         """# Liubang
 
-Backend / Storage / Testing / C++
+Distributed Storage Engineer
 
-I build and write about backend systems, storage-related topics, and engineering quality.
-Recent posts focus on Bloom Filters, fuzz testing, and algorithm problem solving.
+I focus on building distributed storage systems and backend infrastructure, with an emphasis on reliability, performance, and engineering simplicity.
+My work is centered on large-scale systems, and I am particularly interested in the design and implementation of distributed storage and distributed computing platforms.
 
 ## About Me
-- Focus: backend infrastructure, storage systems, testing, and performance
-- Tech: C++, Go, Python, Linux
+- Focus: distributed storage, distributed computing, backend infrastructure, and performance engineering
+- Primary language: C++, with Go and Java as secondary tools
+- Interests: system design, storage architecture, reliability engineering, and performance optimization
 - Writing: <https://liubang.github.io/blog/>
-- Interests: Bloom Filter, fuzzing, distributed systems, developer tooling
 
 ## Latest Blog Posts
 """
