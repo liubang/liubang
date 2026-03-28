@@ -18,6 +18,7 @@ jobs:
       - name: Update README
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          README_ASSET_VERSION: ${{ github.run_id }}
         run: python gen.py
       - name: Prepare profile directory
         run: mkdir -p profile

@@ -24,5 +24,5 @@ Recent posts focus on Bloom Filters, fuzz testing, and algorithm problem solving
 - Blog: <https://liubang.github.io/blog/>
 
 ## Stats
-![Stats](./profile/stats.svg)
-![Lang](./profile/lang.svg)
+![Stats](./profile/stats.svg?v=1)
+![Lang](./profile/lang.svg?v=1)

@@ -2,6 +2,7 @@
 
 from datetime import datetime
 from email.utils import parsedate_to_datetime
+import os
 from urllib.request import urlopen
 import xml.etree.ElementTree as ET
 
@@ -10,6 +11,7 @@ BLOG_RSS_URL = "https://liubang.github.io/blog/index.xml"
 BLOG_ARCHIVE_URL = "https://liubang.github.io/blog/archives/"
 BLOG_URL = "https://liubang.github.io/blog/"
 GITHUB_URL = "https://github.com/liubang"
+ASSET_VERSION = os.environ.get("README_ASSET_VERSION", "1")
 
 
 def fetch_blog_posts():
@@ -67,7 +69,7 @@ Recent posts focus on Bloom Filters, fuzz testing, and algorithm problem solving
 - Blog: <{BLOG_URL}>
 
 ## Stats
-![Stats](./profile/stats.svg)
-![Lang](./profile/lang.svg)
+![Stats](./profile/stats.svg?v={ASSET_VERSION})
+![Lang](./profile/lang.svg?v={ASSET_VERSION})
 """
     )
