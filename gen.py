@@ -1,13 +1,41 @@
 #!/usr/bin/env python
 
+from datetime import datetime
 from email.utils import parsedate_to_datetime
 from urllib.request import urlopen
 import xml.etree.ElementTree as ET
 
 
-with urlopen("https://liubang.github.io/blog/index.xml", timeout=10) as response:
-    feed = response.read().decode("utf-8")
-root = ET.fromstring(feed).find("channel")
+BLOG_RSS_URL = "https://liubang.github.io/blog/index.xml"
+BLOG_ARCHIVE_URL = "https://liubang.github.io/blog/archives/"
+BLOG_URL = "https://liubang.github.io/blog/"
+GITHUB_URL = "https://github.com/liubang"
+
+
+def fetch_blog_posts():
+    with urlopen(BLOG_RSS_URL, timeout=10) as response:
+        feed = response.read().decode("utf-8")
+    root = ET.fromstring(feed).find("channel")
+    posts = []
+    for entry in root.findall("item")[:5]:
+        posts.append(
+            {
+                "title": entry.find("title").text,
+                "url": entry.find("link").text,
+                "published": format_date(entry.find("pubDate").text),
+            }
+        )
+    return posts
+
+
+def format_date(value):
+    try:
+        return parsedate_to_datetime(value).strftime("%Y-%m-%d")
+    except ValueError:
+        return datetime.fromisoformat(value).strftime("%Y-%m-%d")
+
+
+posts = fetch_blog_posts()
 
 with open("README.md", "w") as f:
     f.write(
@@ -28,25 +56,18 @@ Recent posts focus on Bloom Filters, fuzz testing, and algorithm problem solving
 """
     )
 
-    for entry in root.findall("item")[:5]:
-        title = entry.find("title").text
-        url = entry.find("link").text
-        published = parsedate_to_datetime(entry.find("pubDate").text).strftime(
-            "%Y-%m-%d"
-        )
-        f.write(f"- {published} [{title}]({url})\n")
+    for post in posts:
+        f.write(f"- {post['published']} [{post['title']}]({post['url']})\n")
 
     f.write(
-        """
-
-[View all posts](https://liubang.github.io/blog/archives/)
+        f"""[View all posts]({BLOG_ARCHIVE_URL})
 
 ## Elsewhere
-- GitHub: <https://github.com/liubang>
-- Blog: <https://liubang.github.io/blog/>
+- GitHub: <{GITHUB_URL}>
+- Blog: <{BLOG_URL}>
 
 ## Stats
-![Stats](https://github-readme-stats.vercel.app/api?username=liubang&show_icons=true&count_private=true&hide_title=true&hide=issues&line_height=24&theme=onedark)
-![Lang](https://github-readme-stats.vercel.app/api/top-langs/?username=liubang&layout=compact&hide_title=true&langs_count=6&theme=onedark&card_width=280&hide=scss,html,javascript,shell,Emacs%20Lisp,Vim%20script)
+![Stats](./profile/stats.svg)
+![Lang](./profile/lang.svg)
 """
     )

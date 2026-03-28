@@ -1,24 +1,44 @@
-name: update
+name: Update README cards
 on:
+  schedule:
+    - cron: "0 3 * * *"
   workflow_dispatch:
-  schedule: [{ cron: "0 * * * *" }]
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
-      - name: Install uv
-        uses: astral-sh/setup-uv@v6
       - name: Set up Python
-        run: uv python install
-      - name: Update Blog Lists
-        run: |
-          uv sync
-          uv run gen.py
-      - name: Commit & Push changes
-        uses: stefanzweifel/git-auto-commit-action@v6
+        uses: actions/setup-python@v5
         with:
-          branch: "main"
-          commit_options: "--no-verify --signoff"
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          python-version: "3.x"
+      - name: Update README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python gen.py
+      - name: Prepare profile directory
+        run: mkdir -p profile
+      - name: Generate stats card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_title=true&hide=issues&line_height=24&theme=onedark
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generate top langs card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&hide_title=true&langs_count=6&theme=onedark&card_width=280&hide=scss,html,javascript,shell,Emacs%20Lisp,Vim%20script
+          path: profile/lang.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add README.md profile/*.svg
+          git commit -m "Update README cards" || exit 0
+          git push
