@@ -12,11 +12,11 @@ My work is centered on large-scale systems, and I am particularly interested in 
 - Writing: <https://liubang.github.io/blog/>
 
 ## Latest Blog Posts
-- 2026-04-12 [一文讲透 AI 九大核心概念](https://liubang.github.io/blog/posts/llm/2026-04-12-ai-ai-concepts-explained/)
-- 2025-01-01 [BloomFilter中的数学推导](https://liubang.github.io/blog/posts/storage/2025-01-01-bloomfilter%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%A6%E6%8E%A8%E5%AF%BC/)
-- 2023-05-23 [使用LLVM的libFuzzer进行fuzzy test](https://liubang.github.io/blog/posts/cpp/2023-05-23-%E4%BD%BF%E7%94%A8llvm%E7%9A%84libfuzzer%E8%BF%9B%E8%A1%8Cfuzzy-test/)
-- 2023-04-19 [322.零钱兑换](https://liubang.github.io/blog/leetcode/dp/exercises/322.%E9%9B%B6%E9%92%B1%E5%85%91%E6%8D%A2/)
-- 2023-04-19 [70.爬楼梯](https://liubang.github.io/blog/leetcode/dp/exercises/70.%E7%88%AC%E6%A5%BC%E6%A2%AF/)
+- 2026-04-12 [一文讲透 AI 九大核心概念](https://blog.liubang.cc/posts/llm/2026-04-12-ai-ai-concepts-explained/)
+- 2025-01-01 [BloomFilter中的数学推导](https://blog.liubang.cc/posts/storage/2025-01-01-bloomfilter%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%A6%E6%8E%A8%E5%AF%BC/)
+- 2023-05-23 [使用LLVM的libFuzzer进行fuzzy test](https://blog.liubang.cc/posts/cpp/2023-05-23-%E4%BD%BF%E7%94%A8llvm%E7%9A%84libfuzzer%E8%BF%9B%E8%A1%8Cfuzzy-test/)
+- 2023-04-19 [322.零钱兑换](https://blog.liubang.cc/leetcode/dp/exercises/322.%E9%9B%B6%E9%92%B1%E5%85%91%E6%8D%A2/)
+- 2023-04-19 [70.爬楼梯](https://blog.liubang.cc/leetcode/dp/exercises/70.%E7%88%AC%E6%A5%BC%E6%A2%AF/)
 [View all posts](https://liubang.github.io/blog/archives/)
 
 ## Elsewhere
@@ -24,5 +24,5 @@ My work is centered on large-scale systems, and I am particularly interested in 
 - Blog: <https://liubang.github.io/blog/>
 
 ## Stats
-![Stats](./profile/stats.svg?v=24327367212)
-![Lang](./profile/lang.svg?v=24327367212)
+![Stats](./profile/stats.svg?v=24382217622)
+![Lang](./profile/lang.svg?v=24382217622)
