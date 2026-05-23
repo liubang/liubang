@@ -12,11 +12,11 @@ My work is centered on large-scale systems, and I am particularly interested in 
 - Writing: <https://liubang.github.io/blog/>
 
 ## Latest Blog Posts
-- 2026-04-12 [一文讲透 AI 九大核心概念](https://blog.liubang.cc/posts/llm/2026-04-12-ai-ai-concepts-explained/)
-- 2025-01-01 [BloomFilter中的数学推导](https://blog.liubang.cc/posts/storage/2025-01-01-bloomfilter%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%A6%E6%8E%A8%E5%AF%BC/)
-- 2023-05-23 [使用LLVM的libFuzzer进行fuzzy test](https://blog.liubang.cc/posts/cpp/2023-05-23-%E4%BD%BF%E7%94%A8llvm%E7%9A%84libfuzzer%E8%BF%9B%E8%A1%8Cfuzzy-test/)
-- 2023-04-19 [322.零钱兑换](https://blog.liubang.cc/leetcode/dp/exercises/322.%E9%9B%B6%E9%92%B1%E5%85%91%E6%8D%A2/)
-- 2023-04-19 [70.爬楼梯](https://blog.liubang.cc/leetcode/dp/exercises/70.%E7%88%AC%E6%A5%BC%E6%A2%AF/)
+- 2026-05-23 [从零实现一个 Flux 查询引擎：项目目标与整体能力](https://blog.liubang.cc/flux/2026-05-23-flux-engine-01-introduction/)
+- 2026-05-23 [从源码到 AST：Flux Parser 的实现](https://blog.liubang.cc/flux/2026-05-23-flux-engine-02-parser-and-ast/)
+- 2026-05-23 [表达式解释器：让 Flux 代码真正跑起来](https://blog.liubang.cc/flux/2026-05-23-flux-engine-03-runtime-evaluator/)
+- 2026-05-23 [UDF 与高阶函数：Flux 中函数能力的边界](https://blog.liubang.cc/flux/2026-05-23-flux-engine-04-udf-and-higher-order-functions/)
+- 2026-05-23 [标准库设计：从 array package 看 builtin 扩展机制](https://blog.liubang.cc/flux/2026-05-23-flux-engine-05-stdlib-and-array/)
 [View all posts](https://liubang.github.io/blog/archives/)
 
 ## Elsewhere
@@ -24,5 +24,5 @@ My work is centered on large-scale systems, and I am particularly interested in 
 - Blog: <https://liubang.github.io/blog/>
 
 ## Stats
-![Stats](./profile/stats.svg?v=26325200379)
-![Lang](./profile/lang.svg?v=26325200379)
+![Stats](./profile/stats.svg?v=26332140415)
+![Lang](./profile/lang.svg?v=26332140415)
