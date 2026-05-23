@@ -52,7 +52,7 @@ My work is centered on large-scale systems, and I am particularly interested in 
 - Focus: distributed storage, distributed computing, backend infrastructure, and performance engineering
 - Primary language: C++, with Go and Java as secondary tools
 - Interests: system design, storage architecture, reliability engineering, and performance optimization
-- Writing: <https://liubang.github.io/blog/>
+- Writing: <https://blog.liubang.cc>
 
 ## Latest Blog Posts
 """
