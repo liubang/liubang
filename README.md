@@ -9,7 +9,7 @@ My work is centered on large-scale systems, and I am particularly interested in 
 - Focus: distributed storage, distributed computing, backend infrastructure, and performance engineering
 - Primary language: C++, with Go and Java as secondary tools
 - Interests: system design, storage architecture, reliability engineering, and performance optimization
-- Writing: <https://liubang.github.io/blog/>
+- Writing: <https://blog.liubang.cc>
 
 ## Latest Blog Posts
 - 2026-05-23 [从零实现一个 Flux 查询引擎：项目目标与整体能力](https://blog.liubang.cc/flux/2026-05-23-flux-engine-01-introduction/)
@@ -24,5 +24,5 @@ My work is centered on large-scale systems, and I am particularly interested in 
 - Blog: <https://liubang.github.io/blog/>
 
 ## Stats
-![Stats](./profile/stats.svg?v=26332140415)
-![Lang](./profile/lang.svg?v=26332140415)
+![Stats](./profile/stats.svg?v=26334675945)
+![Lang](./profile/lang.svg?v=26334675945)
