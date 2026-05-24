@@ -7,9 +7,9 @@ from urllib.request import urlopen
 import xml.etree.ElementTree as ET
 
 
-BLOG_RSS_URL = "https://liubang.github.io/blog/index.xml"
-BLOG_ARCHIVE_URL = "https://liubang.github.io/blog/archives/"
-BLOG_URL = "https://liubang.github.io/blog/"
+BLOG_RSS_URL = "https://blog.liubang.cc/index.xml"
+BLOG_ARCHIVE_URL = "https://blog.liubang.cc/archives/"
+BLOG_URL = "https://blog.liubang.cc/"
 GITHUB_URL = "https://github.com/liubang"
 ASSET_VERSION = os.environ.get("README_ASSET_VERSION", "1")
 
