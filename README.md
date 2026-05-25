@@ -12,11 +12,11 @@ My work is centered on large-scale systems, and I am particularly interested in 
 - Writing: <https://blog.liubang.cc>
 
 ## Latest Blog Posts
-- 2026-05-23 [从零实现一个 Flux 查询引擎：项目目标与整体能力](https://blog.liubang.cc/flux/2026-05-23-flux-engine-01-introduction/)
-- 2026-05-23 [Flux 子集语法导览：从变量、函数到 Pipe 查询](https://blog.liubang.cc/flux/2026-05-23-flux-engine-02-syntax-guide/)
-- 2026-05-23 [从源码到 AST：Flux Parser 的实现](https://blog.liubang.cc/flux/2026-05-23-flux-engine-03-parser-and-ast/)
-- 2026-05-23 [表达式解释器：让 Flux 代码真正跑起来](https://blog.liubang.cc/flux/2026-05-23-flux-engine-04-runtime-evaluator/)
-- 2026-05-23 [UDF 与高阶函数：Flux 中函数能力的边界](https://blog.liubang.cc/flux/2026-05-23-flux-engine-05-udf-and-higher-order-functions/)
+- 2026-05-24 [MiniDFS 01: 架构与协议设计](https://blog.liubang.cc/minidfs/2026-05-24-minidfs-01-architecture/)
+- 2026-05-23 [Flux 01: 项目目标与整体架构](https://blog.liubang.cc/flux/2026-05-23-flux-engine-01-introduction/)
+- 2026-05-24 [MiniDFS 02: 元数据持久化](https://blog.liubang.cc/minidfs/2026-05-24-minidfs-02-metadata/)
+- 2026-05-23 [Flux 02: 语法导览](https://blog.liubang.cc/flux/2026-05-23-flux-engine-02-syntax-guide/)
+- 2026-05-24 [MiniDFS 03: Namespace 与 Lease](https://blog.liubang.cc/minidfs/2026-05-24-minidfs-03-namespace-and-lease/)
 [View all posts](https://blog.liubang.cc/archives/)
 
 ## Elsewhere
@@ -24,5 +24,5 @@ My work is centered on large-scale systems, and I am particularly interested in 
 - Blog: <https://blog.liubang.cc/>
 
 ## Stats
-![Stats](./profile/stats.svg?v=26354002457)
-![Lang](./profile/lang.svg?v=26354002457)
+![Stats](./profile/stats.svg?v=26379049857)
+![Lang](./profile/lang.svg?v=26379049857)
