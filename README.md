@@ -12,11 +12,11 @@ My work is centered on large-scale systems, and I am particularly interested in 
 - Writing: <https://blog.liubang.cc>
 
 ## Latest Blog Posts
-- 2026-05-24 [MiniDFS 01: 架构与协议设计](https://blog.liubang.cc/minidfs/2026-05-24-minidfs-01-architecture/)
-- 2026-05-23 [Flux 01: 项目目标与整体架构](https://blog.liubang.cc/flux/2026-05-23-flux-engine-01-introduction/)
-- 2026-05-24 [MiniDFS 02: 元数据持久化](https://blog.liubang.cc/minidfs/2026-05-24-minidfs-02-metadata/)
-- 2026-05-23 [Flux 02: 语法导览](https://blog.liubang.cc/flux/2026-05-23-flux-engine-02-syntax-guide/)
+- 2026-05-24 [MiniDFS 06: 容错与自愈](https://blog.liubang.cc/minidfs/2026-05-24-minidfs-06-fault-tolerance/)
+- 2026-05-24 [MiniDFS 05: DataNode 存储与心跳](https://blog.liubang.cc/minidfs/2026-05-24-minidfs-05-datanode-internals/)
+- 2026-05-24 [MiniDFS 04: 写入 Pipeline](https://blog.liubang.cc/minidfs/2026-05-24-minidfs-04-write-pipeline/)
 - 2026-05-24 [MiniDFS 03: Namespace 与 Lease](https://blog.liubang.cc/minidfs/2026-05-24-minidfs-03-namespace-and-lease/)
+- 2026-05-24 [MiniDFS 02: 元数据持久化](https://blog.liubang.cc/minidfs/2026-05-24-minidfs-02-metadata/)
 [View all posts](https://blog.liubang.cc/archives/)
 
 ## Elsewhere
@@ -24,5 +24,5 @@ My work is centered on large-scale systems, and I am particularly interested in 
 - Blog: <https://blog.liubang.cc/>
 
 ## Stats
-![Stats](./profile/stats.svg?v=26433191976)
-![Lang](./profile/lang.svg?v=26433191976)
+![Stats](./profile/stats.svg?v=26436529706)
+![Lang](./profile/lang.svg?v=26436529706)
