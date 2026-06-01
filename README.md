@@ -12,7 +12,7 @@ My work is centered on large-scale systems, and I am particularly interested in 
 - Writing: <https://blog.liubang.cc>
 
 ## Latest Blog Posts
-- 2026-05-31 [从 ODS 到 Materialized View：一文讲透 OLAP 与数据仓库中的核心概念](https://blog.liubang.cc/posts/olap/2026-05-31-olap-data-warehouse-core-concepts/)
+- 2026-05-31 [一文讲透数据仓库与 OLAP 核心概念](https://blog.liubang.cc/posts/olap/2026-05-31-olap-data-warehouse-core-concepts/)
 - 2026-05-24 [MiniDFS 06: 容错与自愈](https://blog.liubang.cc/minidfs/2026-05-24-minidfs-06-fault-tolerance/)
 - 2026-05-24 [MiniDFS 05: DataNode 存储与心跳](https://blog.liubang.cc/minidfs/2026-05-24-minidfs-05-datanode-internals/)
 - 2026-05-24 [MiniDFS 04: 写入 Pipeline](https://blog.liubang.cc/minidfs/2026-05-24-minidfs-04-write-pipeline/)
@@ -24,5 +24,5 @@ My work is centered on large-scale systems, and I am particularly interested in 
 - Blog: <https://blog.liubang.cc/>
 
 ## Stats
-![Stats](./profile/stats.svg?v=26705765725)
-![Lang](./profile/lang.svg?v=26705765725)
+![Stats](./profile/stats.svg?v=26743678705)
+![Lang](./profile/lang.svg?v=26743678705)
