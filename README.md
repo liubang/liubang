@@ -12,11 +12,11 @@ My work is centered on large-scale systems, and I am particularly interested in 
 - Writing: <https://blog.liubang.cc>
 
 ## Latest Blog Posts
+- 2026-06-10 [打造高效终端 IDE：我的 Neovim 完全配置指南](https://blog.liubang.cc/posts/app/2026-06-10-%E6%89%93%E9%80%A0%E9%AB%98%E6%95%88%E7%BB%88%E7%AB%AF-ide-neovim-%E5%AE%8C%E5%85%A8%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/)
 - 2026-05-31 [一文讲透数据仓库与 OLAP 核心概念](https://blog.liubang.cc/posts/olap/2026-05-31-olap-data-warehouse-core-concepts/)
 - 2026-05-24 [MiniDFS 06: 容错与自愈](https://blog.liubang.cc/minidfs/2026-05-24-minidfs-06-fault-tolerance/)
 - 2026-05-24 [MiniDFS 05: DataNode 存储与心跳](https://blog.liubang.cc/minidfs/2026-05-24-minidfs-05-datanode-internals/)
 - 2026-05-24 [MiniDFS 04: 写入 Pipeline](https://blog.liubang.cc/minidfs/2026-05-24-minidfs-04-write-pipeline/)
-- 2026-05-24 [MiniDFS 03: Namespace 与 Lease](https://blog.liubang.cc/minidfs/2026-05-24-minidfs-03-namespace-and-lease/)
 [View all posts](https://blog.liubang.cc/archives/)
 
 ## Elsewhere
@@ -24,5 +24,5 @@ My work is centered on large-scale systems, and I am particularly interested in 
 - Blog: <https://blog.liubang.cc/>
 
 ## Stats
-![Stats](./profile/stats.svg?v=27259019915)
-![Lang](./profile/lang.svg?v=27259019915)
+![Stats](./profile/stats.svg?v=27330738466)
+![Lang](./profile/lang.svg?v=27330738466)
