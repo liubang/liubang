@@ -116,7 +116,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="145.19"
+          width="145.17"
           height="8"
           fill="#f34b7d"
         />
@@ -124,9 +124,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="145.19"
+          x="145.17"
           y="0"
-          width="50.76"
+          width="50.75"
           height="8"
           fill="#00ADD8"
         />
@@ -134,7 +134,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="195.95"
+          x="195.92"
           y="0"
           width="19.25"
           height="8"
@@ -144,9 +144,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="205.2"
+          x="205.17"
           y="0"
-          width="18.73"
+          width="18.759999999999998"
           height="8"
           fill="#000080"
         />
@@ -156,7 +156,7 @@
           data-testid="lang-progress"
           x="213.92999999999998"
           y="0"
-          width="18.130000000000003"
+          width="18.119999999999997"
           height="8"
           fill="#9d5200"
         />
@@ -164,9 +164,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="222.05999999999997"
+          x="222.04999999999998"
           y="0"
-          width="17.95"
+          width="17.94"
           height="8"
           fill="#76d275"
         />
@@ -177,7 +177,7 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#f34b7d" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C++ 63.13%
+        C++ 63.12%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
@@ -198,7 +198,7 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#000080" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Lua 3.79%
+        Lua 3.81%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
