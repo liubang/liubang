@@ -24,5 +24,5 @@ My work is centered on large-scale systems, and I am particularly interested in 
 - Blog: <https://blog.liubang.cc/>
 
 ## Stats
-![Stats](./profile/stats.svg?v=40291007390)
-![Lang](./profile/lang.svg?v=40291007390)
+![Stats](./profile/stats.svg?v=40473780330)
+![Lang](./profile/lang.svg?v=40473780330)
